@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">校园网登陆</string>
+    <string name="openDrawerContentDescription">open</string>
+    <string name="closeDrawerContentDescription">close</string>
+</resources>
