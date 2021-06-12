@@ -13,7 +13,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e11b1cb-53ff-4288-844c-d04fa77116fb" name="Default Changelist" comment="" />
+    <list default="true" id="8e11b1cb-53ff-4288-844c-d04fa77116fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +75,11 @@
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -215,10 +224,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="692" y="343" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1623369393080" />
-    <state x="100" y="127" width="1720" height="853" key="AVDManager" timestamp="1623373818469">
+    <state x="100" y="127" width="1720" height="853" key="AVDManager" timestamp="1623458571232">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="100" y="127" width="1720" height="853" key="AVDManager/0.27.1920.1053@0.27.1920.1053" timestamp="1623373818469" />
+    <state x="100" y="127" width="1720" height="853" key="AVDManager/0.27.1920.1053@0.27.1920.1053" timestamp="1623458571232" />
     <state x="543" y="311" width="824" height="491" key="AndroidCreateResourceDirectoryDialog" timestamp="1623329915096">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -239,14 +248,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="507" y="282" width="496" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1623457168974" />
-    <state x="812" y="448" width="295" height="217" key="Github.ShareDialog" timestamp="1623457825192">
+    <state x="812" y="448" width="295" height="217" key="Github.ShareDialog" timestamp="1623457980067">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="812" y="448" width="295" height="217" key="Github.ShareDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1623457825192" />
-    <state x="697" y="184" width="516" height="745" key="Github.UntrackedFilesDialog" timestamp="1623457366306">
+    <state x="812" y="448" width="295" height="217" key="Github.ShareDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1623457980067" />
+    <state x="697" y="184" width="516" height="745" key="Github.UntrackedFilesDialog" timestamp="1623457986143">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="697" y="184" width="516" height="745" key="Github.UntrackedFilesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1623457366306" />
+    <state x="697" y="184" width="516" height="745" key="Github.UntrackedFilesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1623457986143" />
     <state width="1866" height="272" key="GridCell.Tab.0.bottom" timestamp="1623374355887">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
