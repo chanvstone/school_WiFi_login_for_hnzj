@@ -12,10 +12,27 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e11b1cb-53ff-4288-844c-d04fa77116fb" name="Default Changelist" comment="update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +85,7 @@
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$USER_HOME$/Documents/sign/sign.jks" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Documents/dev/sign/sign.jks" />
     <option name="KEY_ALIAS" value="sio2" />
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
@@ -105,7 +122,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-view/home/sio2/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/screenshot" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/dev/sign/sign.jks" />
     <property name="memory.settings.postsync.last.time.stamp" value="1624199906007" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -218,8 +235,26 @@
       <option name="project" value="LOCAL" />
       <updated>1623458708297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update navigation implementation">
+      <created>1624200443919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624200443919</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -227,14 +262,19 @@
     </ignored-roots>
     <MESSAGE value="screenshot" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="update navigation implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update navigation implementation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="87" y="222" width="1275" height="613" key="#PSD" timestamp="1624200199662">
+    <state x="87" y="222" width="950" height="537" key="#PSD" timestamp="1624200406957">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state x="87" y="218" width="1275" height="613" key="#PSD/0.27.1920.1053@0.27.1920.1053" timestamp="1623375796988" />
-    <state x="87" y="222" key="#PSD/0.32.1920.1048@0.32.1920.1048" timestamp="1624200199662" />
+    <state x="87" y="222" width="950" height="537" key="#PSD/0.32.1920.1048@0.32.1920.1048" timestamp="1624200406957" />
+    <state x="642" y="356" width="625" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624200798779">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="642" y="356" width="625" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.32.1920.1048@0.32.1920.1048" timestamp="1624200798779" />
     <state x="768" y="256" width="374" height="602" key="#com.intellij.ide.util.MemberChooser" timestamp="1623371571606">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -263,10 +303,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="683" y="293" width="553" height="528" key="AndroidProcessChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1623367877804" />
-    <state x="507" y="282" width="496" height="498" key="FileChooserDialogImpl" timestamp="1623457168974">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="507" y="286" width="496" height="498" key="FileChooserDialogImpl" timestamp="1624200496256">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state x="507" y="282" width="496" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1623457168974" />
+    <state x="507" y="286" key="FileChooserDialogImpl/0.32.1920.1048@0.32.1920.1048" timestamp="1624200496256" />
     <state x="812" y="448" width="295" height="217" key="Github.ShareDialog" timestamp="1623457980067">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
