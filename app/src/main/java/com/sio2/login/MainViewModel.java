@@ -1,5 +1,6 @@
 package com.sio2.login;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
@@ -45,12 +46,13 @@ public class MainViewModel extends ViewModel {
                 .apply();
     }
 
+    @SuppressLint("MissingPermission")
     public boolean getWiFiInterface() {
         ConnectivityManager connectivityManager = context.getValue().getSystemService(ConnectivityManager.class);
         for (Network network : connectivityManager.getAllNetworks()) {
             if (connectivityManager.getNetworkCapabilities(network).hasTransport(NetworkCapabilities.TRANSPORT_WIFI)) {
                 for (LinkAddress linkAddress : connectivityManager.getLinkProperties(network).getLinkAddresses()) {
-                    if (linkAddress.getAddress().getHostAddress().startsWith("10.1.")) {
+                    if (linkAddress.getAddress().getHostAddress().startsWith("10.1.") || linkAddress.getAddress().getHostAddress().startsWith("10.2.")) {
                         wifi.postValue(network);
                         ip.postValue(linkAddress.getAddress().getHostAddress());
                         return true;
